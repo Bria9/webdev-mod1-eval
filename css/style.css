@@ -58,13 +58,13 @@ hr {
 }
 
 .container {
-	padding: 0;
+	padding: 2rem;
 	margin: 0 auto;
 	width: 100%;
 	max-width: 1000px;
 }
 
-.header {
+header {
 	background-color: #64bcda;
 	border-bottom: 8px solid #000000;
 	margin-bottom: 3.2rem;
@@ -159,11 +159,18 @@ hr {
 	display: block;
 }
 
-.footer {
+footer {
 	text-align: center;
 }
 
 @media (min-width: 800px) {
+
+	.flex{
+		display: flex;
+		gap: 3%;
+		justify-content: center;
+		
+	}
 	.header_pub-info {
 		flex-direction: row;
 		justify-content: space-between;
@@ -173,12 +180,13 @@ hr {
 	.main-article {
 		width: 60%;
 		border-radius: 0.6rem;
-		margin: 0;
+		margin: 0;		
 	}
 
 	.main-sidebar {
 		width: 40%;
 		border-radius: 0.6rem;
 		margin: 0;
+		
 	}
 }
